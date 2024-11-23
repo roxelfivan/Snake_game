@@ -78,7 +78,7 @@ def gameLoop():
             
             # Display current number of lives at the top-right corner of the window
             value = score_font.render("Lives: " + str(lives), True, colors['white'])
-            dis.blit(value, [dis_width - 170, 10])
+            dis.blit(value, [dis_width - 200, 10])
             
             pygame.display.update()
 
@@ -144,7 +144,7 @@ def gameLoop():
         
         # Display current number of lives at the top-right corner of the window
         value = score_font.render("Lives: " + str(lives), True, colors['white'])
-        dis.blit(value, [dis_width - 170, 10])
+        dis.blit(value, [dis_width - 150, 10])
 
         pygame.display.update()
 
